@@ -1,0 +1,25 @@
+{
+  "name": "test-langgraph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node test.ts",
+    "studio": "npx @langchain/langgraph-cli dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.58",
+    "@langchain/langgraph": "^0.3.3",
+    "@langchain/openai": "^0.5.13"
+  }
+}
